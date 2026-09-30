@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background with awkward retro grid -->
+  <rect width="400" height="400" fill="#c7f9cc"/>
+  <circle cx="200" cy="200" r="180" fill="#e0aaff" stroke="#000" stroke-width="8"/>
+
+  <!-- Empty Office Swivel Chair -->
+  <g transform="translate(100, 140)">
+    <!-- Chair backrest -->
+    <rect x="50" y="30" width="100" height="120" rx="20" fill="#3a0ca3" stroke="#000" stroke-width="6"/>
+    <!-- Headrest -->
+    <rect x="65" y="0" width="70" height="35" rx="12" fill="#4361ee" stroke="#000" stroke-width="5"/>
+    <!-- Armrests -->
+    <path d="M35 80 L50 80 L50 140" stroke="#000" stroke-width="6" fill="none"/>
+    <path d="M165 80 L150 80 L150 140" stroke="#000" stroke-width="6" fill="none"/>
+    <!-- Seat -->
+    <ellipse cx="100" cy="155" rx="65" ry="25" fill="#3f37c9" stroke="#000" stroke-width="6"/>
+    <!-- Chair stem -->
+    <line x1="100" y1="175" x2="100" y2="215" stroke="#000" stroke-width="12"/>
+    <!-- Base wheels -->
+    <line x1="100" y1="215" x2="40" y2="235" stroke="#000" stroke-width="8"/>
+    <line x1="100" y1="215" x2="160" y2="235" stroke="#000" stroke-width="8"/>
+    <line x1="100" y1="215" x2="100" y2="245" stroke="#000" stroke-width="8"/>
+    <circle cx="40" cy="235" r="8" fill="#111"/>
+    <circle cx="160" cy="235" r="8" fill="#111"/>
+    <circle cx="100" cy="245" r="8" fill="#111"/>
+  </g>
+
+  <!-- Cute Translucent Ghost Floating Above the Chair -->
+  <g transform="translate(120, 60)">
+    <!-- Ghost shape -->
+    <path d="M40 90 C30 30 130 30 120 90 C125 125 105 140 95 130 C85 120 75 140 65 130 C55 120 35 135 40 90 Z" 
+          fill="#ffffff" opacity="0.85" stroke="#000" stroke-width="6" stroke-dasharray="10 5"/>
+    <!-- Ghost eyes -->
+    <circle cx="65" cy="70" r="7" fill="#000"/>
+    <circle cx="95" cy="70" r="7" fill="#000"/>
+    <!-- Ghost confused mouth -->
+    <circle cx="80" cy="88" r="6" fill="#ff0066"/>
+    <!-- Question mark above ghost -->
+    <text x="80" y="25" font-family="Impact, sans-serif" font-size="36" fill="#f72585" text-anchor="middle">???</text>
+  </g>
+
+  <!-- Tumbleweed blowing across -->
+  <g transform="translate(40, 270)">
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#b08968" stroke-width="4" stroke-dasharray="8 6"/>
+    <circle cx="30" cy="30" r="18" fill="none" stroke="#7f4f24" stroke-width="3" stroke-dasharray="5 5"/>
+    <path d="M10 20 Q30 50 50 15" stroke="#b08968" stroke-width="3" fill="none"/>
+    <text x="30" y="65" font-family="Comic Sans MS, cursive" font-size="12" fill="#582f0e" text-anchor="middle">🍃 *wind blows*</text>
+  </g>
+
+  <!-- Big Red Stamp: 404 NOT FOUND -->
+  <g transform="translate(200, 290) rotate(-12)">
+    <rect x="-10" y="-5" width="180" height="50" rx="8" fill="#ff0055" stroke="#000" stroke-width="5"/>
+    <text x="80" y="30" font-family="Impact, sans-serif" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle">NOBODY 👻</text>
+  </g>
+</svg>

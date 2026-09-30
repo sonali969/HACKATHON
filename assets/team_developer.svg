@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background with chaotic comic burst -->
+  <rect width="400" height="400" fill="#ff4d4d"/>
+  <circle cx="200" cy="200" r="180" fill="#ffe066" stroke="#000" stroke-width="8"/>
+  
+  <!-- Radiating comic stripes -->
+  <path d="M200 200 L50 20 L100 0 Z" fill="#ff6b6b"/>
+  <path d="M200 200 L350 20 L300 0 Z" fill="#ff6b6b"/>
+  <path d="M200 200 L390 180 L400 130 Z" fill="#ff6b6b"/>
+  <path d="M200 200 L380 320 L400 270 Z" fill="#ff6b6b"/>
+  <path d="M200 200 L10 280 L0 230 Z" fill="#ff6b6b"/>
+
+  <!-- Smug Programmer Figure -->
+  <!-- Hoodie / Body -->
+  <path d="M120 380 Q200 320 280 380 L290 400 L110 400 Z" fill="#2b2d42" stroke="#000" stroke-width="6"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="75" ry="85" fill="#ffd166" stroke="#000" stroke-width="6"/>
+  
+  <!-- Messy Programmer Hair -->
+  <path d="M125 180 Q140 100 200 95 Q260 100 275 180 Q250 140 220 150 Q200 130 180 150 Q150 135 125 180 Z" fill="#4a2810" stroke="#000" stroke-width="6"/>
+  <path d="M115 150 L135 170" stroke="#4a2810" stroke-width="8" stroke-linecap="round"/>
+  <path d="M285 150 L265 170" stroke="#4a2810" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Thick Glasses -->
+  <rect x="140" y="165" width="45" height="35" rx="8" fill="#fff" stroke="#000" stroke-width="5"/>
+  <rect x="215" y="165" width="45" height="35" rx="8" fill="#fff" stroke="#000" stroke-width="5"/>
+  <line x1="185" y1="180" x2="215" y2="180" stroke="#000" stroke-width="5"/>
+  
+  <!-- Eyes (Smug squint) -->
+  <circle cx="162" cy="182" r="7" fill="#000"/>
+  <circle cx="237" cy="182" r="7" fill="#000"/>
+  
+  <!-- Smug Smile -->
+  <path d="M165 235 Q200 265 240 230" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="170" cy="225" rx="6" ry="4" fill="#ff70a6"/>
+  <ellipse cx="235" cy="225" rx="6" ry="4" fill="#ff70a6"/>
+
+  <!-- Burning Laptop Held In Foreground -->
+  <g transform="translate(60, 240)">
+    <!-- Smoke & Fire -->
+    <path d="M70 10 Q60 -25 80 -40 Q100 -20 90 10 Z" fill="#ff0000" opacity="0.9"/>
+    <path d="M75 10 Q80 -15 95 -30 Q105 -15 90 10 Z" fill="#ff9900"/>
+    <path d="M180 15 Q170 -20 190 -35 Q205 -15 195 15 Z" fill="#ff0000" opacity="0.9"/>
+    <path d="M185 15 Q190 -10 200 -25 Q210 -10 195 15 Z" fill="#ffff00"/>
+    <!-- Laptop screen -->
+    <rect x="50" y="20" width="180" height="110" rx="8" fill="#1e1e1e" stroke="#000" stroke-width="5"/>
+    <rect x="60" y="30" width="160" height="90" fill="#0d1117"/>
+    <text x="70" y="60" font-family="monospace" font-size="14" font-weight="bold" fill="#00ff66">✓ BUILD: PASS</text>
+    <text x="70" y="80" font-family="monospace" font-size="12" fill="#ff3366">💥 STACK OVERFLOW</text>
+    <text x="70" y="100" font-family="monospace" font-size="11" fill="#ffff00">0 ERRORS ON LOCAL!</text>
+    <!-- Laptop keyboard base -->
+    <polygon points="30,130 250,130 270,150 10,150" fill="#999" stroke="#000" stroke-width="5"/>
+  </g>
+
+  <!-- Speech Bubble: "WORKS ON MY LAPTOP!" -->
+  <g transform="translate(180, 20)">
+    <path d="M0 30 Q0 0 30 0 L180 0 Q210 0 210 30 L210 60 Q210 90 180 90 L60 90 L20 115 L35 90 L30 90 Q0 90 0 60 Z" fill="#fff" stroke="#000" stroke-width="5"/>
+    <text x="105" y="42" font-family="Impact, sans-serif" font-size="20" text-anchor="middle" fill="#d90429">WORKS ON</text>
+    <text x="105" y="70" font-family="Impact, sans-serif" font-size="22" text-anchor="middle" fill="#000">MY LAPTOP! 💻</text>
+  </g>
+</svg>
